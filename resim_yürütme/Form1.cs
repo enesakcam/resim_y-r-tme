@@ -24,12 +24,12 @@ namespace resim_yürütme
 
         private void button1_Click(object sender, EventArgs e)
         {
-            pictureBox1.Left = pictureBox1.Left + 10;
+            pictureBox2.Left = pictureBox2.Left + 10;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            pictureBox1.Left = pictureBox1.Left + 25;
+            pictureBox2.Left = pictureBox2.Left + 100;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -39,7 +39,7 @@ namespace resim_yürütme
 
         private void button4_Click(object sender, EventArgs e)
         {
-            pictureBox2.Left -= 25;
+            pictureBox2.Left -= 100;
         }
     }
 }
